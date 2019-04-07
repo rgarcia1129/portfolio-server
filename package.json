@@ -1,0 +1,30 @@
+{
+  "name": "BaseProject_API",
+  "version": "1.0.0",
+  "description": "API for BaseProject using MongoDB, Express, & Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "nodemon index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "author": "BaseProject Team",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^4.6.4",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "firebase-admin": "^7.0.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "faker": "^4.1.0"
+  }
+}
