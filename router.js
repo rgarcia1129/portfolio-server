@@ -2,6 +2,9 @@
 const LinkedIn = require('./controllers/linkedin');
 
 module.exports = function (app) {
+    app.get('/', function (req, res) {
+        res.send({message: 'Hello World!'});
+    });
 
     app.get('/api/linkedin/accountInfo', LinkedIn.accountInfo);
 
