@@ -1,5 +1,5 @@
 module.exports.AUTHORIZATION = 'Authorization';
-module.exports.FIREBASE_DATABASE_URL = 'https://pawprints-io.firebaseio.com';
+module.exports.FIREBASE_DATABASE_URL = '';
 
 
 // User Query Parameters

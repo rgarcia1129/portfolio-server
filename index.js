@@ -8,13 +8,15 @@ const router = require('./router');
 const mongoose = require('mongoose');
 const config = require('./config/config');
 const cors = require('cors');
+const dotenv = require('dotenv');
+dotenv.config();
 
 
 const isLocal = process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'development';
 const isDev = process.env.NODE_ENV !== 'production';
 
 // DB Setup
-mongoose.connect(isLocal ? config.db_local : isDev ? config.db_dev : config.db, { useNewUrlParser: true }); // Creates new database calls
+// mongoose.connect(isLocal ? config.db_local : isDev ? config.db_dev : config.db, { useNewUrlParser: true }); // Creates new database calls
 
 // App Setup
 app.use(morgan('combined')); // logging framework

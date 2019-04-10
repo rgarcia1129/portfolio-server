@@ -69,7 +69,7 @@ exports.currentUserAccountData = function (req, res, next) {
 
             // User could not be found.  Doesn't exist in system.
             if (!user) return res.status(403).send({ error: 'Forbidden.' });
-            
+
             // Address expand parameter is present, add it to the response
             if(_.includes(req.query.expand, constants.ADDRESS)) {
                 currentUser.address = user.address;
