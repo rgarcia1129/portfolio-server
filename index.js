@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const app = express();
 const router = require('./router');
 const mongoose = require('mongoose');
-const config = require('./config/config');
+// const config = require('./config/config');
 const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
