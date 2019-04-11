@@ -1,6 +1,6 @@
 module.exports.MOCKED_RESPONSE = ({
-      description: 'Software Developer with 5+ years of experience in the industry. Interested in emerging technologies in web development, all things React and blockchain enthusiast.',
-      headline: 'Full Stack Engineer',
+      description: 'Full Stack Engineer with 5+ years of experience in the software industry. Interested in emerging technologies in web development, all things React and blockchain enthusiast.',
+      headline: 'Richard Ryan Garcia',
       image_url: 'https://media.licdn.com/dms/image/C4D03AQGf7tFL8R7s6A/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=DLCd68lq1BdewCf1PYRkvOzwbRJgHnLewSgBVa0MU4E',
       skills: ['Javascript','MySql','CSS','Scrum','Agile','Front End Development','HTML','SQL','React',
       'Java','Ruby on Rails','NodeJs','Redux','SaaS','Redux','Back End Development','Scaled Agile Framework'],
